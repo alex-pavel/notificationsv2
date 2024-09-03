@@ -1,0 +1,1 @@
+using notifications.requests as service from '../../srv/service';

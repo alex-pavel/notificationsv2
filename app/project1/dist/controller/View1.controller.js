@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(t){"use strict";return t.extend("project1.controller.View1",{onInit:function(){},triggerNotification:async function(){let t=this.getView().getModel();let e=t.bindContext("/triggerNotification(...)");await e.execute().catch(function(t){sap.m.MessageBox.error(t.toString())})}})});
+//# sourceMappingURL=View1.controller.js.map
